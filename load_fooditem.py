@@ -4,7 +4,7 @@ import json
 import sqlite3
 
 # Setting up Django environment
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'saveplate_backend.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'KitchenCompanion-API.settings')
 django.setup()
 
 from api.models import FoodItem  
@@ -40,7 +40,7 @@ def clear_and_load_data(json_file_path):
     table_name = FoodItem._meta.db_table
     
     # Clear the db first
-    conn = sqlite3.connect('saveplate_backend/db.sqlite3')
+    conn = sqlite3.connect('db.sqlite3')
     cursor = conn.cursor()
 
     cursor.execute("DELETE FROM " + table_name)
@@ -81,5 +81,5 @@ def clear_and_load_data(json_file_path):
             print(f"Created '{new_name}'")
             
 if __name__ == '__main__':
-    json_file_path = 'saveplate_backend/data/foodkeeper.json'
+    json_file_path = 'data/foodkeeper.json'
     clear_and_load_data(json_file_path)

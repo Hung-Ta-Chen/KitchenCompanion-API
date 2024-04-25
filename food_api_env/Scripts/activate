@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\narut\OneDrive\桌面\save-plate-backend\saveplate_backend\food_api_env"
+VIRTUAL_ENV="C:\Users\narut\OneDrive\桌面\save-plate-backend\KitchenCompanion-API\food_api_env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

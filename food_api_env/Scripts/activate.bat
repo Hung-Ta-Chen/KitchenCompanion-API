@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\narut\OneDrive\桌面\save-plate-backend\saveplate_backend\food_api_env
+set VIRTUAL_ENV=C:\Users\narut\OneDrive\桌面\save-plate-backend\KitchenCompanion-API\food_api_env
 
 if not defined PROMPT set PROMPT=$P$G
 
