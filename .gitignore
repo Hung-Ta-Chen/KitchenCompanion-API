@@ -8,7 +8,7 @@ __pycache__/
 
 # Environments
 .env
-food_api_env/
+kitchen_api_env/
 
 
 
