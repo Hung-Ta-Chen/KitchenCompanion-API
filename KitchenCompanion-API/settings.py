@@ -25,7 +25,7 @@ CLARIFAI_PAT = config('CLARIFAI_PAT')
 SECRET_KEY = 'django-insecure-6_uhk9+j+%^_s&w0+dbp!z18cxccd0p1l@c=hb2lsee!g1*hdt'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
